@@ -1,50 +1,209 @@
 <!DOCTYPE html>
-<!-- 
-    SITE 1101 Principles of Information Systems Fall 2022 
-    (c)2022 by Name Surname 
+<!--
+    SITE 1101 Principles of Information Systems Fall 2022
+    (c)2022 by Name Surname
     Submitted in partial fulfillment of the requirements of the course.
 -->
-<html>
-    <head>
-        <title>Team 40's Hour of code</title>
-         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div><h1>Team Rocket's Hour of code</h1></div>
-        <div>
-            <h2>What is Hour of Code</h2>
-            <p>Hour of Code is an annual event about coding.
-            Its main purpose is to spread interest in computer science in diverse environments, especially among young girls and racial minorities.
-            It uses not only online activities but also paper-based games making it available for computer free environments.
-            Hour of Code is made for all ages starting from pre-readers to highschoolers and older.
-            It has been conducted in more than 180 countries and 45 times in Azerbaijan in 2022.
-            We, Team Rocket Hosted one of these events. With this site we want to commemorate our experience and inspire future students to participate in this educational movement.</p>
-        </div>
-        <div>
-            <h2>About us</h2>
-         
-        </div>
-        <div class="school">
-            <h4>
-                As we mentioned above, we conducted this event at School #274. 
-                Although it is located quite far from the capital and the weather was poor, we did not hesitate to execute our mission. 
-                In addition, students' enthusiasm encouraged us to do even better than what we had planned. 
-                We would like to convey our gratitude to teacher Vusala Aliyeva and principal Nariman Mursaliyev for letting us carry out this event.
-            </h4>
-        </div>
-        <div class="report3">
-            <!--SAMPLE TEXT-->
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <br>
-        </div>
-        
-        <form action="submission.html" method="POST">
-            <h2>Give a feedback!</h2>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <style>
+        .portraits {
+            width: auto;
+            height: 500px;
+        }
+        /**#Index, h1, h2, h3, p{
+            text-align: center;
+        }**/
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 5vw);
+            grid-gap: 15px;
+        }
+        .gallery_img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .gallery_item--1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+
+        .gallery_item--2 {
+            grid-column-start: 6;
+            grid-column-end: 8;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+
+        .gallery_item--4 {
+            grid-column-start: 4;
+            grid-column-end: 6;
+            grid-row-start: 1;
+            grid-row-end: 5;
+        }
+
+        .gallery_item--5 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 5;
+            grid-row-end: 9;
+        }
+
+        .gallery_item--7 {
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 5;
+            grid-row-end: 9;
+        }
+
+        .gallery_item--8 {
+            grid-column-start: 6;
+            grid-column-end: 8;
+            grid-row-start: 4;
+            grid-row-end: 10;
+        }
+    </style>
+    <title>Team 40's Hour of code</title>
+</head>
+<body>
+<div>
+    <h1>Team Rocket's Hour of code</h1>
+</div>
+<div id="Index">
+    <a href="#Hour of Code">Hour Of Code</a>
+    <a href="#Team 40">Team 40</a>
+    <a href="#Main Event">Main Event</a>
+    <a href="#Thanks">Special Thanks</a>
+    <a href="#Credits">Credits</a>
+    <a href="#Survey">Survey</a>
+</div>
+<div id="Hour of Code" style="text-align: center">
+    <h2>What is Hour of Code</h2>
+    <p>Hour of Code is an annual event about coding.
+        Its main purpose is to spread interest in computer science in diverse environments, especially among young girls and racial minorities.<br>
+        It uses not only online activities but also paper-based games making it available for computer free environments.<br>
+        Hour of Code is made for all ages starting from pre-readers to highschoolers and older.<br>
+        It has been conducted in more than 180 countries and 45 times in Azerbaijan in 2022.<br>
+        We, Team Rocket Hosted one of these events. With this site we want to commemorate our experience and inspire future students to participate in this educational movement.
+    </p>
+</div>
+<div id="Team 40">
+    <h2>About us</h2>
+    <img class="portraits" src="img/group-photo1.JPG">
+    <p>Team Rocket consists of 3 talented indivisuals: Vasila Aliyeva,  Sevda Mammadova and  Emil Rzayev.<br>
+        Tasked by our proffesors Araz Yusubov and Malak Gasimova we combined our efforts to present, write and translate study material for one of Azerbaijani school's clases.
+    </p>
+    <img class="portraits" src="img/vasila.JPG">
+    <img class="portraits" src="img/seva.JPG">
+    <img class="portraits" src="img/emil.JPG">
+    <table>
+        <tr>
+            <td>Team Rocket</td>
+            <td>Vasila Aliyeva</td>
+            <td>Sevda Mammadova</td>
+            <td>Emil Rzayev </td>
+        </tr>
+        <tr>
+            <td>Programm of Study</td>
+            <td>Information Technologies</td>
+            <td>Computer Science</td>
+            <td>Information Technologies</td>
+        </tr>
+        <tr>
+            <td>Applied Skills</td>
+            <td>
+                <ul>
+                    <li>Design of Activity Programm</li>
+                    <li>Oral Presentation</li>
+                    <li>Translation of Study Material</li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Design of Activity Programm</li>
+                    <li>Editing of Printed Materil</li>
+                    <li>Preparation of Slides</li>
+                </ul>
+            </td>
+            <td><ul>
+                <li>Design of Activity Programm</li>
+                <li>Development of Instuctions</li>
+                <li>Photography</li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Contact Information</td>
+            <td><a href="https://www.facebook.com/profile.php?id=100087622697570&mibextid=ZbWKwL">Facebook</a></td>
+        </tr>
+    </table>
+    <img class="portraits" src="img/group-photo2.JPG">
+</div>
+<div id="Main Event">
+    <h1>Main Event</h1>
+    <p>
+        Team Rocket conducted our Hour of Code in Baku Secondary School No. 274 6th grade with 36 students present.<br>
+
+        With 6 computer-based and paper-based activities pupils participated in both individual and teamwork.<br>
+
+        Students pationatly solved given problems and learned unfamiliar terms.<br>
+    </p>
+    <h2>Gallery</h2>
+    <div class="gallery" style="display: inline-grid">
+        <figure class="gallery__item gallery_item--1">
+            <img src="img/pic1.jpg" class="gallery_img" alt="Picture1">
+        </figure>
+        <figure class="gallery__item gallery_item--2">
+            <img src="img/pic2.jpg" class="gallery_img" alt="Picture2">
+        </figure>
+        <figure class="gallery_item gallery_item--4">
+            <img src="img/pic4.jpg" class="gallery_img" alt="Picture4">
+        </figure>
+        <figure class="gallery_item gallery_item--5">
+            <img src="img/pic5.jpg" class="gallery_img" alt="Picture5">
+        </figure>
+        </figure>
+        <figure class="gallery_item gallery_item--7">
+            <img src="img/pic7.jpg" class="gallery_img" alt="Picture7">
+        </figure>
+        <figure class="gallery_item gallery_item--8">
+            <img src="img/pic8.jpg" class="gallery_img" alt="Picture8">
+        </figure>-->
+    </div>
+</div>
+<div id="Thanks">
+    <h2>Special Thanks</h2>
+    <div class="school">
+        <h4>
+            As we mentioned above, we conducted this event at School #274.
+            Although it is located quite far from the capital and the weather was poor, we did not hesitate to execute our mission.
+            In addition, students' enthusiasm encouraged us to do even better than what we had planned.
+            We would like to convey our gratitude to teacher Vusala Aliyeva and principal Nariman Mursaliyev for letting us carry out this event.
+        </h4>
+    </div>
+</div>
+<div id="Credits">
+    <h2>Credits</h2>
+    <div class="report3">
+        <!--SAMPLE TEXT-->
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <br>
+    </div>
+</div>
+
+<div id="Survey">
+    <form action="submission.html" method="POST">
+        <h2>Give a feedback!</h2>
         <hr>
         <section class="feedback">
             <label>What did you like/dislike about our website?</label>
@@ -52,23 +211,24 @@
         </section>
         <hr>
         <section class="percantage">
-           <label>Could you please rate our website? How much did you like it?</label>
+            <label>Could you please rate our website? How much did you like it?</label>
             <br>
             <span>0%</span>
             <input type="range" name="rate" value="1" min="0" max="100">
             <span>100%</span>
         </section>
         <section class="submit">
-            <input type="submit" value="submit"> 
+            <input type="submit" value="submit">
         </section>
-        </form>
-        
-        <footer>
-            <h3>Contact</h3>
-            <hr>
-            <p><a href="https://www.facebook.com/profile.php?id=100087622697570" target="_blank">Vasila Aliyeva</a>: valiyeva16144@ada.edu.az</p>  <!--TEST FACEBOOK LINK--->
-            <p><a href="">Sevda Mammadova</a>: smammadova16214@ada.edu.az</p>
-            <p><a href="">Emil Rzayev</a>: erzayev17474@ada.edu.az</p>
-        </footer>
-    </body>
+    </form>
+</div>
+</body>
+<footer>
+    <h3>Contact</h3>
+    <hr>
+    <p><a href="https://www.facebook.com/profile.php?id=100087622697570" target="_blank">Vasila Aliyeva</a>: valiyeva16144@ada.edu.az</p>  <!--TEST FACEBOOK LINK--->
+    <p><a href="">Sevda Mammadova</a>: smammadova16214@ada.edu.az</p>
+    <p><a href="">Emil Rzayev</a>: erzayev17474@ada.edu.az</p>
+</footer>
+</body>
 </html>
