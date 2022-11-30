@@ -41,7 +41,7 @@ p{
     line-height: 120%;
     margin: 20px;
     font-size: 20px;
-    font-weight: 3px;
+    font-weight: 400;
     padding-left: 25px;
     text-indent: 2px;
     font-family: 'Yantramanav', sans-serif;
@@ -50,7 +50,7 @@ p{
 .feedback, .percantage, .submit, .school{
     margin: 20px;
     font-size: 20px;
-    font-weight: 3px;
+    font-weight: 400;
     padding-left: 25px;
     text-indent: 2px;
     font-family: 'Yantramanav', sans-serif;
@@ -62,7 +62,7 @@ table, td{
     font-family: 'Yantramanav', sans-serif;
     margin: 20px;
     font-size: 20px;
-    font-weight: 3px;
+    font-weight: 400;
     padding:10px;
    
 }
@@ -76,4 +76,8 @@ thead{
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+h3{
+padding: 20px;
+font-size: 25px;
 }
