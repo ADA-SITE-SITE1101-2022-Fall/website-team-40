@@ -9,13 +9,34 @@ body {
     width: 100%;
 }
 
-#Index {
-    font-size: 22px;
-    padding: 9px 13px;
-    text-align: right;
-    margin: 10px;
-    word-spacing: 1px;
-    }
+ nav{
+    max-width: 100%;
+    max-width: 100%;
+    height: 50px;
+    line-height: 15px;
+    padding:20px;
+    background-color: rgb(18, 86, 128);
+  }
+  nav ul {
+    float: right;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 8px;
+    color: azure;
+}
+
+nav li a:hover{
+color: rgb(3, 3, 86);
+transition:all 1s;
+
+}
+
+
 
 
 h1 {
@@ -78,6 +99,14 @@ thead{
     margin-right: auto;
 }
 h3{
-padding: 20px;
+padding: 15px 15px 5px;
 font-size: 25px;
+}
+footer{
+   background-color: rgb(18, 86, 128); 
+   text-align: right;
+   padding: 10px;
+}
+a{
+    color: azure;
 }
