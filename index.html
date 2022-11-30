@@ -6,6 +6,11 @@
 -->
 <html xmlns="http://www.w3.org/1999/html">
 <head>
+    <script>
+        function onSubmit() {
+            alert("Thank you for your feedback!");
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
     <style>
         .portraits, .thnks {
@@ -16,10 +21,8 @@
             text-align: center;
         }**/
         .logo {
-            position: top;
-            height: auto;
-            left: 0px;
-            width: 12%;
+            width: auto;
+            height: 200px;
         }
         
         .gallery {
@@ -242,7 +245,7 @@
 </div>
 
 <div id="Survey">
-    <form action="submission.html" method="POST">
+    <form method="POST">
         <h2>Give a feedback!</h2>
         <hr>
         <section class="feedback">
@@ -258,7 +261,7 @@
             <span>100%</span>
         </section>
         <section class="submit">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" onclick="onSubmit();">
         </section>
     </form>
 </div>
