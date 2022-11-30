@@ -8,7 +8,8 @@
 <head>
     <script>
         function onSubmit() {
-            alert("Thank you for your feedback!");
+            var rating = document.getElementById('range').value;
+            alert(`You rated us ${rating}%. Thank you for your feedback!`);
         }
     </script>
     <link rel="stylesheet" href="style.css">
@@ -257,7 +258,7 @@
             <label>Could you please rate our website? How much did you like it?</label>
             <br>
             <span>0%</span>
-            <input type="range" name="rate" value="1" min="0" max="100">
+            <input type="range" name="rate" value="1" min="0" max="100" id="range">
             <span>100%</span>
         </section>
         <section class="submit">
