@@ -47,7 +47,7 @@ p{
     font-family: 'Yantramanav', sans-serif;
 }
 
-.feedback, .percantage, .submit{
+.feedback, .percantage, .submit, .school{
     margin: 20px;
     font-size: 20px;
     font-weight: 3px;
@@ -56,3 +56,24 @@ p{
     font-family: 'Yantramanav', sans-serif;
 }
 
+table, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-family: 'Yantramanav', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 3px;
+    padding:10px;
+   
+}
+
+
+thead{
+    
+    background-color: lightsteelblue;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
