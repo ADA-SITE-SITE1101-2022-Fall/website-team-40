@@ -111,6 +111,15 @@ h3{
 padding: 15px 15px 5px;
 font-size: 25px;
 }
+.report3 {
+    color: azure;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Yantramanav', sans-serif;
+}
+.report3 ul {
+    padding-left: 65px;
+}
 footer{
    background-color: rgb(18, 86, 128); 
    text-align: right;
