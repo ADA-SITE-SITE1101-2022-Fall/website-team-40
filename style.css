@@ -1,0 +1,83 @@
+body {
+    background: rgb(239, 239, 245);
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#Index {
+    font-size: 22px;
+    padding: 9px 13px;
+    text-align: right;
+    margin: 10px;
+    word-spacing: 1px;
+    }
+
+
+h1 {
+    font-size: 3em;
+    padding-top: 50px;
+    width: 100%;
+    font-family:'Valera Round', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight:100;
+    font-size: 40px;
+    line-height: 26px;
+    padding-top:50px;
+    padding-bottom: 30px;
+    font-family: 'Valera Round', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+p{
+    line-height: 120%;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+    text-indent: 2px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.feedback, .percantage, .submit, .school{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 25px;
+    text-indent: 2px;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    font-family: 'Yantramanav', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px;
+   
+}
+
+
+thead{
+    
+    background-color: lightsteelblue;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+padding: 20px;
+font-size: 25px;
+}
